@@ -1,0 +1,5 @@
+en:
+  data_not_found: Sorry! no data found against this location
+  cached: The Data is being fetched from cache which will be refreshed in 30 minutes
+  geocode_location: No data available for this location
+  error: An error occured

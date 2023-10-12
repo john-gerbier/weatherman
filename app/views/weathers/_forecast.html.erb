@@ -1,0 +1,9 @@
+<% if forecast %>
+  <div class="relative overflow-x-auto">
+    <%= render 'table', data: forecast %>
+  </div>
+  
+  <%= render 'alert', message: I18n.t(:cached) if cached_result %>
+<% else %>
+  <%= render 'alert', message: I18n.t(:data_not_found) %>
+<% end %>
